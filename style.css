@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    align-items: center;
+    background-color: yellow;
+}
+
+.modal{
+    width: 50%;
+    margin-left: 25%;
+}
+
+img{
+    width: 100%;
+}
+
+#sketch{
+    float: right;
+}
+
+h1
+{
+  color:rgb(38, 0, 255);
+  background-color: cornsilk;
+}
+
+canvas{
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: light;
+    animation-duration: 4s;
+    margin-top: 100px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes light{
+    from{box-shadow: 10px 10px 50px grey;}
+    to{box-shadow: 10px 10px 50px white;}
+}
